@@ -1,0 +1,148 @@
+@CHARSET "ISO-8859-1";
+
+#title{
+	text-align: center;
+}
+
+fieldset {
+	
+	width: 400px;
+	margin:auto;
+	
+}
+
+#main table{
+	margin: auto;
+}
+#middle h1{
+	text-align: center;
+	text-decoration: underline;
+	font-size: large;
+	font-weight: bolder;
+}
+#menu ul{
+	overflow:hidden;
+	list-style-type: none;
+	margin:0;
+	padding:0;
+	background-color:#08ad70;
+	
+	
+}
+
+
+#menu ul li{
+	float:left;
+}
+ 
+#menu ul li a{
+	display:block;
+	color: white;
+	width:120px;
+    text-align: center;
+    padding: 16px;
+    border-radius:20px;
+	text-decoration: none;
+}
+#options ul{
+	
+	margin:0;
+	padding:0;
+	list-style-type: none;	
+	border: 1px solid black;
+	
+}
+
+#options ul li a{
+	display:block;
+	text-decoration: none;
+	padding:5px;
+	text-align: center;
+}
+#options ul li a:hover{
+	background-color: #3fbd8e;
+}
+#menu ul li a:hover {
+
+    background-color: #3fbd8e;
+}
+#options li:NTH-CHILD(odd) a{
+	background-color: #E5E4D7;
+}
+#result h3{
+	text-decoration: underline;
+}
+ table{
+ border-collapse: collapse;
+ text-align: center;
+
+ }
+ table th{
+ 	text-align: left;
+ 	background-color: #08ad70;
+ 	color:white;
+ 	padding:4px 30px 4px 8px;
+ }
+table td{
+	border: 1px solid #e3e3e3;
+	padding: 4px 8px;
+}
+table tr:NTH-CHILD(odd) td{
+	background-color: #E5E4D7;
+}
+input[type=submit]{
+font-size: 14px;
+background: linear-gradient(#ffbc00 5%, #ffdd7f 100%);
+box-shadow:3px 3px 3px gray;
+border: 1px solid #e5a900;
+color: #4E4D4B;
+font-weight: bold;
+width:110px;
+border-radius: 25px;
+padding: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+div.tab button {
+    background-color: #08ad70;;
+    float: center;
+    color:white;
+    border: none;
+    outline: none;
+    cursor: pointer;
+	padding: 4px 16px;
+	border-radius:10px;
+	font-size:16px;
+    transition: 0.3s;
+   
+}
+
+/* Change background color of buttons on hover */
+div.tab button:hover {
+    background-color: #3fbd8e;
+	border-radius:10px;
+    color:black;
+}
+
+/* Create an active/current tablink class */
+div.tab button.active {
+border-radius:10px;
+    background-color:#08ad70;;
+}
+
+/* Style the tab content */
+.tabcontent {
+    display: none;
+	border-radius:10px;
+    padding: 6px 12px;
+        border-top: none;
+}
