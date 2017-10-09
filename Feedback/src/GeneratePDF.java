@@ -36,7 +36,7 @@ public class GeneratePDF {
  
 			addMetaData(document);
  
-			addTitlePage(document,"Malla Reddy Enginnering College");
+			addTitlePage(document,"Some Enginnering College");
  
 			createTable(document,dept);
  
